@@ -1,0 +1,19 @@
+# Run output: bug reports, screenshots and logs (large, and the bug reports
+# hold personal device data)
+out/
+# Zipped copies of run output (e.g. for uploading); they contain bug reports too
+*.zip
+
+# Build products (rebuilt by build_probe.sh; run_repro.sh builds the APK if missing)
+probe/build/
+*.apk
+*.idsig
+*.dex
+*.class
+
+# Editor / OS clutter
+*.swp
+*~
+.DS_Store
+.vscode/
+.idea/
